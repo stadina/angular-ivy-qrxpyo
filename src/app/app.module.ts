@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { CardModule } from 'primeng/card';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { CardModule, } from 'primeng/card';
+
 import { CardComponent } from './card.component';
 
 @NgModule({

@@ -3,6 +3,15 @@
   Start editing to see some magic happen :)
 </p>
 <card cardName="{{cardName}} {{cardNumber}}"></card>
+
+
 <p-card>
-Content
+<ng-template pTemplate="header">
+    Ich bin eine Überschrift
+    <img alt="Card" src=" [style]="{'margin-top': '35px', width: '20rem', 'border-radius': '20px'}" >
+</ng-template>
+Hallo!
+<ng-template pTemplate="footer">
+    Footer content here
+</ng-template>
 </p-card>
