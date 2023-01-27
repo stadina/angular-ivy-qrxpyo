@@ -1,4 +1,14 @@
 p {
   font-family: Lato;
-  font-weight: 800;
+  color: white;
+  text-align: center;
+}
+
+hello {
+  color: white;
+  text-align: center;
+}
+card {
+  text-align: center;
+  color: darkblue;
 }

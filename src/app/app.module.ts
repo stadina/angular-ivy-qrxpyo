@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
+import { CardModule, } from 'primeng/card';
+import { CardComponent } from './card.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent ],
+  imports:      [ BrowserModule, FormsModule, CardModule],
+  declarations: [ AppComponent, HelloComponent, CardComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
