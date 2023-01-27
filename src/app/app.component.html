@@ -5,13 +5,17 @@
 <card cardName="{{cardName}} {{cardNumber}}"></card>
 
 
-<p-card>
+<p-card >
 <ng-template pTemplate="header">
     Ich bin eine Überschrift
-    <img alt="Card" src=" [style]="{'margin-top': '35px', width: '20rem', 'border-radius': '20px'}" >
+    <img alt="Card" src="https://picsum.photos/200/100" [style]="{'margin-top': '15px', width: '20rem', 'border-radius': '20px'}" >
 </ng-template>
 Hallo!
 <ng-template pTemplate="footer">
     Footer content here
 </ng-template>
 </p-card>
+
+
+<p-dropdown [options]="cities" [(ngModel)]="selectedCity1" optionLabel="name"></p-dropdown>
+
